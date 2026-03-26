@@ -17,14 +17,14 @@ library(shinydashboard)
 periodes <- c("1900-1909","1910-1919","1920-1929","1930-1939","1940-1949","1950-1959","1960-1969", "1970-1979", "1980-1989", "1990-1999", "2000-2009", "2010-2019", "2020-2029")
 
 # Données agrégées
-url <- "https://raw.githubusercontent.com/hgesdrn/feux_qc_shiny/main/data/feux_aggr.RDS"
+url <- "https://raw.githubusercontent.com/UQAC-CREB/HistoriqueFeuxQc/main/data/feux_aggr.RDS"
 con <- gzcon(url(url))
 on.exit(close(con))
 aggr_data <- readRDS(con)
 
 
 # Chargement de la couche de province sans le Saguenay
-url_prov <- "https://github.com/hgesdrn/feux_qc_shiny/blob/main/data/prov_sf.rds?raw=true"
+url_prov <- "https://github.com/UQAC-CREB/HistoriqueFeuxQc/blob/main/data/prov_sf.rds?raw=true"
 prov_sf <- readRDS(gzcon(url(url_prov)))
 
 # UI
@@ -106,7 +106,7 @@ server <- function(input, output, session) {
   # Réactif : charge les polygones de la période sélectionnée
   feux_filtrés <- reactive({
     req(input$periode)
-    url <- paste0("https://raw.githubusercontent.com/hgesdrn/feux_qc_shiny/main/data/periodes/feux_", input$periode, ".rds")
+    url <- paste0("https://raw.githubusercontent.com/UQAC-CREB/HistoriqueFeuxQc/main/data/periodes/feux_", input$periode, ".rds")
     con <- gzcon(url(url))
     on.exit(close(con))
     readRDS(con)
