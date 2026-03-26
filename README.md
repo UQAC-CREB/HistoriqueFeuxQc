@@ -1,7 +1,7 @@
 
 # feux_qc_shiny
 
-[![Deploy Shiny App](https://github.com/hgesdrn/feux_qc_shiny/actions/workflows/deploy.yml/badge.svg)](https://github.com/hgesdrn/feux_qc_shiny/actions/workflows/deploy.yml)
+[![Deploy Shiny App](https://github.com/UQAC-CREB/HistoriqueFeuxQc/actions/workflows/deploy.yml/badge.svg)](https://github.com/UQAC-CREB/HistoriqueFeuxQc/actions/workflows/deploy.yml)
 
 🌲 Application Shiny interactive pour visualiser les contours historiques des feux de forêt au Québec (1990–2023).
 
