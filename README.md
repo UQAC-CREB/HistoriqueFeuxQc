@@ -1,5 +1,5 @@
 
-# feux_qc_shiny
+# Feux de forêt au Québec de 1900 à 2023
 
 [![Deploy Shiny App](https://github.com/UQAC-CREB/HistoriqueFeuxQc/actions/workflows/deploy.yml/badge.svg)](https://github.com/UQAC-CREB/HistoriqueFeuxQc/actions/workflows/deploy.yml)
 
