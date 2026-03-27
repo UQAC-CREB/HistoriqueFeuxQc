@@ -5,7 +5,7 @@
 
 🌲 Application Shiny interactive pour visualiser les contours historiques des feux de forêt au Québec (1990–2023).
 
-🔗 **Application en ligne** : [https://hgesdrn.shinyapps.io/feux_qc_shiny/](https://hgesdrn.shinyapps.io/feux_qc_shiny/)
+🔗 **Application en ligne** : [Feux de forêt au Québec de 1900 à 2023](https://creb-uqac.shinyapps.io/HistoriqueFeuxQc/)
 
 ---
 
